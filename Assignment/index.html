@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Display Box</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="initialize()">
+    <div class="container">
+        <div class="display-box" id="image">
+            Hover over an image below to display here.
+        </div>
+        <div class="image-container">
+            <img src="image1.jpeg" alt="Lord Bramha" class="small-image" onclick="upDate(this)" onmouseover="upDate(this)" onmouseleave="undo()" onfocus="upDate(this)" onblur="undo()">
+            <img src="image2.jpeg" alt="Supreme Lord Krishna" class="small-image" onclick="upDate(this)" onmouseover="upDate(this)" onmouseleave="undo()" onfocus="upDate(this)" onblur="undo()">
+            <img src="image3.jpeg" alt="Lord Shiva" class="small-image" onclick="upDate(this)" onmouseover="upDate(this)" onmouseleave="undo()" onfocus="upDate(this)" onblur="undo()">
+            <img src="image4.jpeg" alt="Godess Parvati" class="small-image" onclick="upDate(this)" onmouseover="upDate(this)" onmouseleave="undo()" onfocus="upDate(this)" onblur="undo()">
+            <img src="image5.jpeg" alt="Lord Ganesha" class="small-image" onclick="upDate(this)" onmouseover="upDate(this)" onmouseleave="undo()" onfocus="upDate(this)" onblur="undo()">
+            <img src="image6.jpeg" alt="Godess Saraswati" class="small-image" onclick="upDate(this)" onmouseover="upDate(this)" onmouseleave="undo()" onfocus="upDate(this)" onblur="undo()">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

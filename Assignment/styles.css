@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+.display-box {
+    width: 300px;
+    height: 300px;
+    border: 5px solid #000; /* Solid photo frame */
+    background-color: #87c93c;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 300px; /* Center text vertically */
+    background-size: cover;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.small-image {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000; /* Solid photo frame for small images */
+    padding: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for a 3D effect */
+    border-radius: 5px; /* Rounded corners for the frame */
+    cursor: pointer;
+}
